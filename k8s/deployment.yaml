@@ -18,7 +18,7 @@ spec:
       containers:
         - name: k8s-demo-app
           # Replace YOUR_GITHUB_USERNAME
-          image: ghcr.io/YOUR_GITHUB_USERNAME/k8s-demo-app:latest
+          image: ghcr.io/rodhnnya/k8s-demo-app:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
